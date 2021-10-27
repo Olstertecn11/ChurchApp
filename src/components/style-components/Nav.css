@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 .navbar{
     background: black;
@@ -11,12 +12,35 @@
 
 .navbar-brand{
     color: white;
+    font-weight: bold;
+}
+
+.nav-link{
+    transition: .50s;
 }
 
 .nav-item{
+    margin-left: 15px;
     color: white;
 }
 
 
+.dropdown-menu { position:fixed !important;     cursor: pointer;}
 
-.dropdown-menu { position:fixed !important }
+.nav-link:hover{
+    background: white;
+    border-radius: 15px;
+    transition: .40s;
+    color: black !important;
+}
+
+
+
+@media (max-width: 550px) {
+    .nav-link:hover{
+        background: none;
+        border-radius: none;
+        color: white!important;
+    }
+
+}
