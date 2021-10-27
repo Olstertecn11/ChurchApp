@@ -6,7 +6,7 @@ import Main from './components/Main';
 import Asociacion from './components/Asociacion';
 import Informacion from './components/Informacion';
 import Contact  from './components/Contact';
-
+import Church from './components/Church';
 
 export default function App() {
     return (
@@ -20,6 +20,7 @@ export default function App() {
                         <Route path="/Mision"  component={Asociacion} />
                         <Route path="/Contact"  component={Contact} />
                         <Route path="/Informacion"  component={Informacion} />
+                        <Route path="/Church"  component={Church} />
                 </div>
             </Router>
             

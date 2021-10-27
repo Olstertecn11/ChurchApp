@@ -1,5 +1,7 @@
 import React from 'react'
 import './../App.css';
+import { Link } from 'react-router-dom';
+
 
 export default function Main() {
     return (
@@ -7,9 +9,9 @@ export default function Main() {
             <div className="img-container">
                     <h2 className="text-center text-white title">Iglesia Adventista del Septimo Dia</h2>
                     <button className="icon"><i className="fas fa-place-of-worship"></i></button>
-                    <a className="btn btn-light">
+                    <Link to="/Church" className="btn btn-light">
                         Iglesias Cerca
-                    </a>
+                    </Link>
                     
             </div>
         </div>
