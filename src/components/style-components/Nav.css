@@ -5,6 +5,7 @@
 }
 .navbar{
     background: black;
+    position: static;
 }
 
 
@@ -16,3 +17,6 @@
     color: white;
 }
 
+
+
+.dropdown-menu { position:fixed !important }

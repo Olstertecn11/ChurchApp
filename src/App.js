@@ -1,21 +1,25 @@
 import React from 'react'
 import Nav from './components/Nav';
-import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import './App.css';
+import Main from './components/Main';
+import Asociacion from './components/Asociacion';
+import Informacion from './components/Informacion';
+import Contact  from './components/Contact';
+
 
 export default function App() {
     return (
         <div>
             <Router >
                 <Nav />
-                <div className="img-container">
-                    <h2 className="text-center text-white title">Iglesia Adventista del Septimo Dia</h2>
-                    <button className="icon"><i className="fas fa-place-of-worship"></i></button>
-                    <a className="btn btn-light">
-                        Iglesias Cerca
-                    </a>
-
+                <Route path="/" exact  component={Main} />
+                <div className="container p-4">
+                        
+                        <Route path="/Asociaciones"  component={Asociacion} />
+                        <Route path="/Mision"  component={Asociacion} />
+                        <Route path="/Contact"  component={Contact} />
+                        <Route path="/Informacion"  component={Informacion} />
                 </div>
             </Router>
             
