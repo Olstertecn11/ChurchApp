@@ -1,25 +1,24 @@
-import logo from './logo.svg';
+import React from 'react'
+import Nav from './components/Nav';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+export default function App() {
+    return (
+        <div>
+            <Router >
+                <Nav />
+                <div className="img-container">
+                    <h2 className="text-center text-white title">Iglesia Adventista del Septimo Dia</h2>
+                    <button className="icon"><i className="fas fa-place-of-worship"></i></button>
+                    <a className="btn btn-light">
+                        Iglesias Cerca
+                    </a>
 
-export default App;
+                </div>
+            </Router>
+            
+        </div>
+    )
+}
