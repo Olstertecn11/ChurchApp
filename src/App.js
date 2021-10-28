@@ -13,14 +13,14 @@ export default function App() {
         <div>
             <Router >
                 <Nav />
-                <Route path={process.env.PUBLIC_URL+"/Principal"} exact  component={Main} />
+                <Route path="/" exact  component={Main} />
                 <div className="container p-4">
                         
-                        <Route path={process.env.PUBLIC_URL+"/Asociaciones"}  component={Asociacion} />
-                        <Route path={process.env.PUBLIC_URL+"/Mision"}  component={Asociacion} />
-                        <Route path={process.env.PUBLIC_URL+"/Contact"}  component={Contact} />
-                        <Route path={process.env.PUBLIC_URL+"/Informacion"}  component={Informacion} />
-                        <Route path={process.env.PUBLIC_URL6+"/Church"}  component={Church} />
+                        <Route path="/Asociaciones"  component={Asociacion} />
+                        <Route path="/Mision"  component={Asociacion} />
+                        <Route path="/Contact"  component={Contact} />
+                        <Route path="/Informacion"  component={Informacion} />
+                        <Route path="/Church"  component={Church} />
                 </div>
             </Router>
             
