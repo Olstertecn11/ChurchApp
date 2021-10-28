@@ -13,7 +13,7 @@ export default function App() {
         <div>
             <Router >
                 <Nav />
-                <Route path="/" exact  component={Main} />
+                <Route path="/Principal" exact  component={Main} />
                 <div className="container p-4">
                         
                         <Route path="/Asociaciones"  component={Asociacion} />
