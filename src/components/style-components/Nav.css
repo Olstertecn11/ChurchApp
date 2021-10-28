@@ -16,7 +16,8 @@
 }
 
 .nav-link{
-    transition: .50s;
+    transition: .60s;
+    border-radius: 15px;
 }
 
 .nav-item{
@@ -24,13 +25,14 @@
     color: white;
 }
 
-
-.dropdown-menu { position:fixed !important;     cursor: pointer;}
+/*
+.dropdown-menu{ position: relative !important; cursor: pointer;}
+*/
 
 .nav-link:hover{
     background: white;
     border-radius: 15px;
-    transition: .40s;
+    transition: .60s;
     color: black !important;
 }
 
