@@ -1,7 +1,7 @@
 import React from 'react'
 import Nav from './components/Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import Main from './components/Main';
 import Asociacion from './components/Asociacion';
 import Informacion from './components/Informacion';
@@ -11,7 +11,6 @@ import Church from './components/Church';
 export default function App() {
     return (
         <div>
-            <Router >
                 <Nav />
                 <Route path="/" exact  component={Main} />
                 <div className="container p-4">
@@ -22,7 +21,6 @@ export default function App() {
                         <Route path="/Informacion"  component={Informacion} />
                         <Route path="/Church"  component={Church} />
                 </div>
-            </Router>
             
         </div>
     )

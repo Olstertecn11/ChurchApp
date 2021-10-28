@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/Olstertecn11/ChurchApp/static/css/main.d5618856.chunk.css",
-    "main.js": "/Olstertecn11/ChurchApp/static/js/main.6f209a98.chunk.js",
-    "main.js.map": "/Olstertecn11/ChurchApp/static/js/main.6f209a98.chunk.js.map",
+    "main.js": "/Olstertecn11/ChurchApp/static/js/main.a0b662b0.chunk.js",
+    "main.js.map": "/Olstertecn11/ChurchApp/static/js/main.a0b662b0.chunk.js.map",
     "runtime-main.js": "/Olstertecn11/ChurchApp/static/js/runtime-main.5fcefe72.js",
     "runtime-main.js.map": "/Olstertecn11/ChurchApp/static/js/runtime-main.5fcefe72.js.map",
     "static/css/2.0a9ec390.chunk.css": "/Olstertecn11/ChurchApp/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.2e3615dc.chunk.js": "/Olstertecn11/ChurchApp/static/js/2.2e3615dc.chunk.js",
-    "static/js/2.2e3615dc.chunk.js.map": "/Olstertecn11/ChurchApp/static/js/2.2e3615dc.chunk.js.map",
+    "static/js/2.b4fea1f2.chunk.js": "/Olstertecn11/ChurchApp/static/js/2.b4fea1f2.chunk.js",
+    "static/js/2.b4fea1f2.chunk.js.map": "/Olstertecn11/ChurchApp/static/js/2.b4fea1f2.chunk.js.map",
     "index.html": "/Olstertecn11/ChurchApp/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/Olstertecn11/ChurchApp/static/css/2.0a9ec390.chunk.css.map",
     "static/css/main.d5618856.chunk.css.map": "/Olstertecn11/ChurchApp/static/css/main.d5618856.chunk.css.map",
-    "static/js/2.2e3615dc.chunk.js.LICENSE.txt": "/Olstertecn11/ChurchApp/static/js/2.2e3615dc.chunk.js.LICENSE.txt",
+    "static/js/2.b4fea1f2.chunk.js.LICENSE.txt": "/Olstertecn11/ChurchApp/static/js/2.b4fea1f2.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Olstertecn11/ChurchApp/static/media/Iglesia.152f7d42.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.5fcefe72.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.2e3615dc.chunk.js",
+    "static/js/2.b4fea1f2.chunk.js",
     "static/css/main.d5618856.chunk.css",
-    "static/js/main.6f209a98.chunk.js"
+    "static/js/main.a0b662b0.chunk.js"
   ]
 }
