@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Olstertecn11/ChurchApp/static/css/main.8b0e2a0b.chunk.css",
-    "main.js": "/Olstertecn11/ChurchApp/static/js/main.bc2682c6.chunk.js",
-    "main.js.map": "/Olstertecn11/ChurchApp/static/js/main.bc2682c6.chunk.js.map",
+    "main.css": "/Olstertecn11/ChurchApp/static/css/main.74113ea1.chunk.css",
+    "main.js": "/Olstertecn11/ChurchApp/static/js/main.95f555df.chunk.js",
+    "main.js.map": "/Olstertecn11/ChurchApp/static/js/main.95f555df.chunk.js.map",
     "runtime-main.js": "/Olstertecn11/ChurchApp/static/js/runtime-main.5fcefe72.js",
     "runtime-main.js.map": "/Olstertecn11/ChurchApp/static/js/runtime-main.5fcefe72.js.map",
     "static/css/2.0a9ec390.chunk.css": "/Olstertecn11/ChurchApp/static/css/2.0a9ec390.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.d4a9c3a8.chunk.js.map": "/Olstertecn11/ChurchApp/static/js/2.d4a9c3a8.chunk.js.map",
     "index.html": "/Olstertecn11/ChurchApp/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/Olstertecn11/ChurchApp/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.8b0e2a0b.chunk.css.map": "/Olstertecn11/ChurchApp/static/css/main.8b0e2a0b.chunk.css.map",
+    "static/css/main.74113ea1.chunk.css.map": "/Olstertecn11/ChurchApp/static/css/main.74113ea1.chunk.css.map",
     "static/js/2.d4a9c3a8.chunk.js.LICENSE.txt": "/Olstertecn11/ChurchApp/static/js/2.d4a9c3a8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5fcefe72.js",
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.d4a9c3a8.chunk.js",
-    "static/css/main.8b0e2a0b.chunk.css",
-    "static/js/main.bc2682c6.chunk.js"
+    "static/css/main.74113ea1.chunk.css",
+    "static/js/main.95f555df.chunk.js"
   ]
 }
