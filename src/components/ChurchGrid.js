@@ -35,7 +35,7 @@ export default function ChurchGrid() {
                         if(getDistance(element, item, pos))
                         {
                             return(
-                                <div key={item.Id + item.Nombre[1]} className="card p-2 mt-4">
+                                <div key={item.Id + item.Nombre[1]}  className="card p-2 mt-4">
                                     <div className="card-body">
                                         <h3 className="card-title">{item.Nombre}</h3>
                                         <p className="card-text">{item.Ubicacion}</p>
