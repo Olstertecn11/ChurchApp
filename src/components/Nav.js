@@ -22,7 +22,7 @@ export default function Nav() {
                                 <Link to="/Asociaciones" className="nav-link">Asociaciones</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/Asociaciones" className="nav-link">Misiones</Link>
+                                <Link to="/Mision" className="nav-link">Misiones</Link>
                             </li>
                             <li className="nav-item active">
                                 <Link to="/Informacion" className="nav-link">Informacion</Link>
