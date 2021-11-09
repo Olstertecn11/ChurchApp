@@ -16,7 +16,7 @@ export default function App() {
                 <div className="container p-4">
                         
                         <Route path="/Asociaciones"  component={()=> <Asociacion title={"Asociaciones"} datas={["Central", "Metropolitana", "Occidental"]}/>} />
-                        <Route path="/Mision"  component={()=> <Asociacion title={"Misiones"} datas={["del Altipano", "del Lago", "del Sur"]} />}  />
+                        <Route path="/Mision"  component={()=> <Asociacion title={"Misiones"} datas={["Oriente", "Norte","Altipano", "Lago", "Sur"]} />}  />
                         <Route path="/Contact"  component={Contact} />
                         <Route path="/Informacion"  component={Informacion} />
                         <Route path="/Church"  component={Church} />

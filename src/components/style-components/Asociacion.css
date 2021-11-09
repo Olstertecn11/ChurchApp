@@ -1,10 +1,16 @@
 #exampleFormControlSelect1{
     align-items: center;
     text-align: center;
-    width: 500px !important;
 }
 
 
-.card{
-    height: 500px;
+
+
+@media (min-width: 500px) {
+    #exampleFormControlSelect1{
+        align-items: center;
+        text-align: center;
+        width: 500px;
+    }
+
 }
