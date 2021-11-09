@@ -6,5 +6,14 @@
         padding-right: 10px;
     }
 
+    .card{
+        width: 280px !important;
+    }
+
+
+    *{
+        overflow: visible;
+    }
+
 
 }

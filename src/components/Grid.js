@@ -13,11 +13,12 @@ export default function Grid({mision}) {
 
     return (
         <div className="contentGrid">
+            {loading && <p>Loading...</p>}
             {
                 images.length > 0?(
                     images.map(myAso => {
                         return (
-                            <ChurchGridItem church={myAso} />
+                            <ChurchGridItem key={myAso.Id + myAso.Anciano[0]} church={myAso} />
                         )
                     })
 
