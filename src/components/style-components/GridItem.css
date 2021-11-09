@@ -1,0 +1,13 @@
+@media (max-width: 360px) {
+
+    iframe{
+        width: 230px !important;
+        padding-left: 0px;
+        padding-right: 10px;
+    }
+
+    *{
+        overflow: hidden;
+    }
+
+}
