@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Olstertecn11/ChurchApp/static/css/main.d175ce41.chunk.css",
+    "main.js": "/Olstertecn11/ChurchApp/static/js/main.982b740f.chunk.js",
+    "main.js.map": "/Olstertecn11/ChurchApp/static/js/main.982b740f.chunk.js.map",
+    "runtime-main.js": "/Olstertecn11/ChurchApp/static/js/runtime-main.5fcefe72.js",
+    "runtime-main.js.map": "/Olstertecn11/ChurchApp/static/js/runtime-main.5fcefe72.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/Olstertecn11/ChurchApp/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.ce25ab7f.chunk.js": "/Olstertecn11/ChurchApp/static/js/2.ce25ab7f.chunk.js",
+    "static/js/2.ce25ab7f.chunk.js.map": "/Olstertecn11/ChurchApp/static/js/2.ce25ab7f.chunk.js.map",
+    "index.html": "/Olstertecn11/ChurchApp/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/Olstertecn11/ChurchApp/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.d175ce41.chunk.css.map": "/Olstertecn11/ChurchApp/static/css/main.d175ce41.chunk.css.map",
+    "static/js/2.ce25ab7f.chunk.js.LICENSE.txt": "/Olstertecn11/ChurchApp/static/js/2.ce25ab7f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5fcefe72.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.ce25ab7f.chunk.js",
+    "static/css/main.d175ce41.chunk.css",
+    "static/js/main.982b740f.chunk.js"
+  ]
+}
