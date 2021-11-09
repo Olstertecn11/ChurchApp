@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import React from 'react';
 import './style-components/Grid.css';
 import { useFetchChurch } from "../hooks/useFetchChurch";
+import ChurchGridItem from "./ChurchGridItem";
+
 
 export default function Grid({mision}) {
     
@@ -15,22 +17,13 @@ export default function Grid({mision}) {
                 images.length > 0?(
                     images.map(myAso => {
                         return (
-                            <p className="text-white">{myAso.Nombre}</p>
+                            <ChurchGridItem church={myAso} />
                         )
                     })
 
                 ):(
                     <h2 className="text-center text-white">En Desarrollo</h2>
                 )
-                /*
-                mision=="Metropolitana"?(
-                    images.map(myAso => {
-                        return (
-                            <p className="text-white">{myAso.Nombre}</p>
-                        )
-                    })
-                ):(
-                )*/
             }
         </div>
     )
