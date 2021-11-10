@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
 import { calcCrow } from "../helpers/Distance";
 import { getDistance } from "../helpers/Distance";
-import './style-components/ChurchGrid.css';
+import { Link } from "react-router-dom";
+
+
 
 export default function ChurchGrid() {
 
@@ -28,19 +30,20 @@ export default function ChurchGrid() {
 
     return (
         <div>
-            <h2>Iglesias</h2>
+            <h2 className="text-center text-white">Iglesias Cerca</h2>
             <ul>
                 {
                     element.map(item =>{
                         if(getDistance(element, item, pos))
                         {
                             return(
-                                <div key={item.Id + item.Nombre[1]}  className="card p-2 mt-4">
+                                <div key={item.Id + item.Nombre[1]} style={{width: 500, height: 510, marginTop: 20}}  className="card mx-auto p-2 mt-4">
                                     <div className="card-body">
                                         <h3 className="card-title">{item.Nombre}</h3>
                                         <p className="card-text">{item.Ubicacion}</p>
-                                        <iframe src={`https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d30880.08117208651!2d${pos[1]}!3d${pos[0]}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e6!4m3!3m2!1d${pos[0]}!2d${pos[1]}!4m3!3m2!1d${item.PosX}!2d${item.PosY}!5e0!3m2!1ses!2sgt!4v1635305813144!5m2!1ses!2sgt`} width="600" height="450"   loading="lazy"></iframe>
-                                        <p>{calcCrow(pos[0], pos[1], item.PosX, item.PosY)} Km</p>
+                                        <iframe src={`https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d30880.08117208651!2d${pos[1]}!3d${pos[0]}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e6!4m3!3m2!1d${pos[0]}!2d${pos[1]}!4m3!3m2!1d${item.PosX}!2d${item.PosY}!5e0!3m2!1ses!2sgt!4v1635305813144!5m2!1ses!2sgt`} width="450" height="280"   loading="lazy"></iframe>
+                                        <Link to={{pathname:'/Some', state:{church:item, position:pos}}} className="btn btn-primary btn-block mt-4">Ver Iglesia</Link>
+                                        <p className="mt-3 text-muted text-center" style={{fontSize:14}}> Distancia {calcCrow(pos[0], pos[1], item.PosX, item.PosY)} Km</p>
                                     </div>
                                 </div>
                             )
