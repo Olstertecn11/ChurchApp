@@ -7,6 +7,7 @@ import Asociacion from './components/Asociacion';
 import Informacion from './components/Informacion';
 import Contact  from './components/Contact';
 import Church from './components/Church';
+import UniqueChurch from './components/UniqueChurch';
 
 export default function App() {
     return (
@@ -20,6 +21,7 @@ export default function App() {
                         <Route path="/Contact"  component={Contact} />
                         <Route path="/Informacion"  component={Informacion} />
                         <Route path="/Church"  component={Church} />
+                        <Route path="/Some"> <UniqueChurch /> </Route>
                 </div>
             
         </div>
