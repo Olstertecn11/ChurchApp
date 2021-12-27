@@ -22,7 +22,7 @@ export default function ChurchGrid() {
 
 
     const getData = async() =>{
-        const data = await fetch("https://pure-gorge-01437.herokuapp.com/getChurch/");
+        const data = await fetch("https://obscure-sands-48789.herokuapp.com/getChurch/");
         const churchs = await data.json();
         setElement(churchs);
     }
