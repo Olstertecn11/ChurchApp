@@ -30,10 +30,15 @@
 */
 
 .nav-link:hover{
-    background: white;
-    border-radius: 15px;
     transition: .60s;
     color: black !important;
+    transition: 0.45s;
+}
+
+
+.nav-link:hover span{
+    border-bottom: 3px solid green;
+    padding-bottom:2px;
 }
 
 

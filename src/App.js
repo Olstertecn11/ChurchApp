@@ -9,6 +9,7 @@ import Contact  from './components/Contact';
 import Church from './components/Church';
 import UniqueChurch from './components/UniqueChurch';
 
+
 export default function App() {
     return (
         <div>

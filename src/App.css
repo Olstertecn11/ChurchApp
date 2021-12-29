@@ -53,8 +53,11 @@
 }
 
 .img-container > a:hover{
-    background: white;
+    background: #008000;
     transition: .45s;
+    color: white;
+    border: #008000 solid 1px;
+    font-weight: bold;
 }
 
 .title{
