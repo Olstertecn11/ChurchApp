@@ -10,15 +10,18 @@ export default function ChurchGrid() {
 
     const [element, setElement] = useState([]);
     const [pos, setPos] = useState([]);
+
     useEffect(() =>{
-        getData();
         navigator.geolocation.getCurrentPosition((pos) =>{
             //console.log('Latitud: ', pos.coords.latitude);
             //console.log('Latitud: ', pos.coords.longitude);
             var myPos = [pos.coords.latitude, pos.coords.longitude];
             setPos(myPos);
         });
+        getData();
     }, []);
+
+
 
 
     const getData = async() =>{

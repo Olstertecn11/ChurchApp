@@ -32,13 +32,13 @@
 .nav-link:hover{
     transition: .60s;
     color: black !important;
-    transition: 0.45s;
 }
 
 
 .nav-link:hover span{
     border-bottom: 3px solid green;
     padding-bottom:2px;
+    transition: 0.50s;
 }
 
 
