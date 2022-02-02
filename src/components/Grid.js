@@ -10,6 +10,7 @@ export default function Grid({mision}) {
 
 
 
+
     return (
         <div className="contentGrid">
             {loading && <p>Loading...</p>}
