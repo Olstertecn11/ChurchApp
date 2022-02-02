@@ -13,15 +13,14 @@ function calcCrow(lat1, lon1, lat2, lon2) {
             Math.cos(lat2);
     var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
     var d = R * c;
-    return Number.parseFloat(d).toFixed(2);;
+    return Number.parseFloat(d).toFixed(2);
 }
 
-// Converts numeric degrees to radians
 function toRad(Value) {
     return (Value * Math.PI) / 180;
 }
 
-function getDistance(elements, item, current, me){
+function getDistance(elements, item, current){
     let arr = [];
     let lowers = [];
     for(var j = 0; j < elements.length; j++){
@@ -39,9 +38,7 @@ function getDistance(elements, item, current, me){
         cont += 1;
     }
 
-    // console.log(lowers);
     for(var i = 0; i < 5; i++){
-        //console.log(`coord: ${calcCrow(current[0], current[1], item.PosX, item.PosY).toString()}`);
         if(calcCrow(current[0], current[1], item.PosX, item.PosY).toString() == lowers[i].toString()){
             return true;
         }
