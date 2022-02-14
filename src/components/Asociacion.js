@@ -18,8 +18,8 @@ export default function Asociacion({title, datas}) {
     }
 
     useEffect(()=>{
-        var select_value = document.getElementById("exampleFormControlSelect1").value;
-        setMision(select_value);
+        var selected_value = document.getElementById("exampleFormControlSelect1").value;
+        setMision(selected_value);
     })
 
     return (

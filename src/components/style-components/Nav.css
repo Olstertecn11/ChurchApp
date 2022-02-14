@@ -25,21 +25,20 @@
     color: white;
 }
 
-/*
-.dropdown-menu{ position: relative !important; cursor: pointer;}
-*/
 
 .nav-link:hover{
     transition: .60s;
-    color: black !important;
+    color: white !important;
+    border-radius: 30px 30px;
+    background-color: #59AC59;
 }
 
 
-.nav-link:hover span{
-    border-bottom: 3px solid green;
-    padding-bottom:2px;
-    transition: 0.50s;
-}
+/* .nav-link:hover span{ */
+/*     border-bottom: 3px solid green; */
+/*     padding-bottom:2px; */
+/*     transition: 0.50s; */
+/* } */
 
 
 

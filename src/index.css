@@ -1,3 +1,8 @@
+*{
+    scrollbar-width: thin !important;
+    scrollbar-color: #6969dd #e0e0e0 !important;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

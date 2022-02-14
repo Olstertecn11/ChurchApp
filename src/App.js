@@ -1,7 +1,7 @@
 import React from 'react'
-import Nav from './components/Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route } from 'react-router-dom';
+import Nav from './components/Nav';
 import Main from './components/Main';
 import Asociacion from './components/Asociacion';
 import Informacion from './components/Informacion';
