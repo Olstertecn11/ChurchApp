@@ -16,6 +16,7 @@
 }
 
 .nav-link{
+    cursor: pointer;
     transition: .60s;
     border-radius: 15px;
 }
@@ -25,12 +26,14 @@
     color: white;
 }
 
+.active{
+    background-color: #59AC59;
+    border-radius: 30px 30px;
+    color: white !important;
+}
 
 .nav-link:hover{
     transition: .60s;
-    color: white !important;
-    border-radius: 30px 30px;
-    background-color: #59AC59;
 }
 
 

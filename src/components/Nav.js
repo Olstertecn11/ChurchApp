@@ -1,10 +1,33 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import './style-components/Nav.css';
-
-
+import { useHistory } from "react-router-dom";
 
 export default function Nav() {
+   
+    const [active, setActive] = useState('')
+    let history = useHistory();
+
+    const handleClick = (event)=>{
+	var id = event.target.id;
+	if(id === "1"){
+	    history.push("/Asociaciones");
+	}
+	else if(id === "2"){
+	    history.push("/Mision");
+	}
+	else if(id === "3"){
+	    history.push("/Informacion");
+	}
+	else if(id === "4"){
+	    history.push("/Contact");
+	}
+	setActive(id);	
+    }
+
+
+
+
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-light bg-light p-3">
@@ -18,17 +41,29 @@ export default function Nav() {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav ml-auto">
-                            <li className="nav-item">
-                                <Link to="/Asociaciones" className="nav-link"> <span>Asociaciones</span> </Link>
+			    <li className='nav-item'>
+                                <a className={active === "1" ? 'nav-link active' : 'nav-link'} id="1"
+				    onClick={handleClick} >
+				    Asociaciones 
+				</a>
+                            </li>
+                            <li className='nav-item'>
+                                <a  className={active === "2" ? 'nav-link active' : 'nav-link'}
+				    onClick={handleClick} id="2" > 
+				    Misiones 
+				</a>
+                            </li>
+			    <li className='nav-item'>
+                                <a  className={active === "3" ? 'nav-link active' : 'nav-link'}
+				    onClick={handleClick} id="3"> 
+				    Informacion
+				</a>
                             </li>
                             <li className="nav-item">
-                                <Link to="/Mision" className="nav-link"> <span>Misiones</span> </Link>
-                            </li>
-                            <li className="nav-item active">
-                                <Link to="/Informacion" className="nav-link"> <span>Informacion</span> </Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to="/Contact" className="nav-link"> <span>Contacto</span> </Link>
+                                <a className={active === "4" ? 'nav-link active' : 'nav-link'} 
+				    onClick={handleClick} id="4"> 
+				    Contacto
+				</a>
                             </li>
 
                         </ul>
