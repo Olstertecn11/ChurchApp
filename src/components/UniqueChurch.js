@@ -29,10 +29,10 @@ function UniqueChurch() {
                     </div>
                     <div className="col">
 
-                        <table class="table bg-success text-white mt-4 text-center">
+                        <table className="table bg-success text-white mt-4 text-center">
                             <thead>
                                 <tr>
-                                <th class="lopendeopdrachten" colspan="4">Horarios y Actividades</th>
+                                <th className="lopendeopdrachten" colSpan="4">Horarios y Actividades</th>
                                 </tr>
                             </thead>
                             <tbody>

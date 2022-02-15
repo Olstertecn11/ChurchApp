@@ -32,7 +32,6 @@
 
 .btn-warning{
     color: black;
-    background: none;
     border-radius: 65px;
     border: black solid 1px;
     transition: .45s;
@@ -50,6 +49,7 @@
 .col{
     padding: 5px;
 }
+
 
 
 

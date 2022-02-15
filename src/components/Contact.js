@@ -59,12 +59,12 @@ export default function Contact() {
 						</div>
 						<div className="col-md-12">
 						    <div className="form-group">
-							<a className="btn text-white">
+							<button className="btn text-white">
 							    <span>
 								<i className="fas fa-paper-plane fa-fw"></i>
 							    </span>
 							    Enviar Mensaje
-							</a>
+							</button>
 						    </div>
 						</div>
 					    </div>
@@ -75,9 +75,22 @@ export default function Contact() {
 				    <div className="info-wrap w-100 p-lg-5 p-4">
 					    <img src="https://github.com/Olivers11/Images/blob/master/ChurchApp/igle.png?raw=true" 
 					    alt="Girl in a jacket" 
-					    width="200" 
+					    width="210" 
 					    height="200"/>
-
+					    <div className="form-group" style={{marginTop: 100}}>
+						<a href="https://www.facebook.com/iglesiaadventistaoficial/"> 
+						    <i className="fa-brands fa-facebook-square"> </i> 
+						</a>
+						<a href="https://twitter.com/adventistases"> 
+						    <i className="fa-brands fa-twitter"> </i> 
+						</a>
+						<a href="https://www.instagram.com/iglesiaadventistaoficial/?hl=es-la"> 
+						    <i className="fa-brands fa-instagram"> </i> 
+						</a>
+						<a href="https://www.youtube.com/channel/UC5QTNtavIA-uuuCDuaZYIUA"> 
+						    <i className="fa-brands fa-youtube"> </i> 
+						</a>					    
+					    </div>
 				    </div>
 				</div>
 			    </div>

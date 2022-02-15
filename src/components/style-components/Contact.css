@@ -39,4 +39,8 @@ img{
     margin-top: 50px;
 }
 
-
+a{
+    padding: 15px;
+    font-size: 160%;
+    color: white;
+}

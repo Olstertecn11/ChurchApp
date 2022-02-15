@@ -32,14 +32,14 @@ function getDistance(elements, item, current){
         const minor = Math.min.apply(null, arr);
         lowers.push(Number.parseFloat(minor));
         const pos = arr.indexOf(minor);
-        if(pos != -1){
+        if(pos !== -1){
             arr.splice(pos, 1);
         }
         cont += 1;
     }
 
     for(var i = 0; i < 5; i++){
-        if(calcCrow(current[0], current[1], item.PosX, item.PosY).toString() == lowers[i].toString()){
+        if(calcCrow(current[0], current[1], item.PosX, item.PosY).toString() === lowers[i].toString()){
             return true;
         }
     }
