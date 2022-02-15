@@ -1,6 +1,6 @@
 import React from 'react';
 import './style-components/blog.css';
-import { Link } from 'react-router-dom';
+import { button } from 'react-router-dom';
 
 
 
@@ -15,7 +15,7 @@ function Blog() {
                         <img className="img_col" src="https://github.com/Olivers11/Images/blob/master/ChurchApp/logo_azul.png?raw=true" width="150" alt="" />
                         <aside className="text_col">La Iglesia Adventista del Séptimo Día es una denominación cristiana, ​​ que a diferencias de otras denominaciones se caracteriza por guardar el sábado​ como día de reposo, así como por estudiar la Biblia y complementarla con los escritos de Ellen G. White.</aside>
                         <p className="text-muted text-center" id="little-text">Movimiento adventista luchando para alcanzar almas</p> 
-                        <Link to="/Informacion" className="btn btn-warning text-left" >Conocer Más</Link>
+                        <button to="/Informacion" className="btn btn-warning text-left" >Conocer Más</button>
                     </div>
 
                     <div className="col">

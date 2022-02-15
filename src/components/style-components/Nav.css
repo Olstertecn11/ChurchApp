@@ -12,13 +12,17 @@
 
 .navbar-brand{
     color: white;
+    background: white;
+    border: none;
     font-weight: bold;
 }
 
 .nav-link{
+    border: none;
     cursor: pointer;
     transition: .60s;
     border-radius: 15px;
+    background-color: white;
 }
 
 .nav-item{
@@ -34,6 +38,9 @@
 
 .nav-link:hover{
     transition: .60s;
+    border-radius: 30px 30px;
+    color: white !important;
+    background-color: #59AC59;
 }
 
 

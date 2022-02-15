@@ -1,7 +1,7 @@
 import React from 'react'
 import { useLocation } from 'react-router-dom';
 import {  useEffect } from 'react';
-
+import Fade from 'react-reveal/Fade';
 
 function UniqueChurch() {
     const location = useLocation();
@@ -13,6 +13,7 @@ function UniqueChurch() {
 
     return(
         <>
+	    <Fade top>
             <div className="container mx-auto">
                 <div className="row">
                     <div className="col">
@@ -78,6 +79,7 @@ function UniqueChurch() {
                     </div>
                 </div>
             </div>
+	    </Fade>
         </>
     )
 }

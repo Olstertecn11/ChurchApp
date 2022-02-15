@@ -1,7 +1,7 @@
 import React, {useState} from "react";
-import { Link } from "react-router-dom";
 import './style-components/Nav.css';
 import { useHistory } from "react-router-dom";
+
 
 export default function Nav() {
    
@@ -22,6 +22,9 @@ export default function Nav() {
 	else if(id === "4"){
 	    history.push("/Contact");
 	}
+	else{
+	    history.push("/");
+	}
 	setActive(id);	
     }
 
@@ -32,38 +35,39 @@ export default function Nav() {
         <>
             <nav className="navbar navbar-expand-lg navbar-light bg-light p-3">
                 <div className="container">
-                    <Link className="navbar-brand" style={{color: "#1C9741", fontSize:22}} to="/">
+                    <button className="navbar-brand" id="0" style={{color: "#1C9741", fontSize:22}} 
+			onClick={handleClick}>
                         <i className="material-icons" >
                              </i> AdventistApp
-                    </Link>
+                    </button>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav ml-auto">
 			    <li className='nav-item'>
-                                <a className={active === "1" ? 'nav-link active' : 'nav-link'} id="1"
+                                <button className={active === "1" ? 'nav-link active' : 'nav-link'} id="1"
 				    onClick={handleClick} >
 				    Asociaciones 
-				</a>
+				</button>
                             </li>
                             <li className='nav-item'>
-                                <a  className={active === "2" ? 'nav-link active' : 'nav-link'}
+                                <button  className={active === "2" ? 'nav-link active' : 'nav-link'}
 				    onClick={handleClick} id="2" > 
 				    Misiones 
-				</a>
+				</button>
                             </li>
 			    <li className='nav-item'>
-                                <a  className={active === "3" ? 'nav-link active' : 'nav-link'}
+                                <button  className={active === "3" ? 'nav-link active' : 'nav-link'}
 				    onClick={handleClick} id="3"> 
 				    Informacion
-				</a>
+				</button>
                             </li>
                             <li className="nav-item">
-                                <a className={active === "4" ? 'nav-link active' : 'nav-link'} 
+                                <button className={active === "4" ? 'nav-link active' : 'nav-link'} 
 				    onClick={handleClick} id="4"> 
 				    Contacto
-				</a>
+				</button>
                             </li>
 
                         </ul>

@@ -8,9 +8,6 @@ export default function Grid({mision}) {
     
     const {data: images, loading} = useFetchChurch(mision);
 
-
-
-
     return (
         <div className="contentGrid">
             {loading && <p>Loading...</p>}

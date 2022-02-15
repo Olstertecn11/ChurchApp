@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import "./style-components/Asociacion.css";
 import Grid  from "./Grid";
-
+import Fade from 'react-reveal/Fade';
 
 
 export default function Asociacion({title, datas}) {
@@ -20,11 +20,11 @@ export default function Asociacion({title, datas}) {
     useEffect(()=>{
         var selected_value = document.getElementById("exampleFormControlSelect1").value;
         setMision(selected_value);
-    })
+    }, [])
 
     return (
         <>
-            <div >
+            <Fade top>
                 <div className="container">
                     <div className="row">
                         <h3 className="text-center text-white">{title}</h3>
@@ -38,7 +38,7 @@ export default function Asociacion({title, datas}) {
                             {
                                 
                                 datas.map(item =>{
-                                    if(title == "Asociaciones")
+                                    if(title === "Asociaciones")
                                     {
                                         return(<option  key={item} value={item}> {title.substring(0, title.length-2) + " " + item} </option>);
                                     }
@@ -52,7 +52,7 @@ export default function Asociacion({title, datas}) {
                         </div>
                     </div>
                 </div>
-            </div>  
+            </Fade>  
         </>
     );
 }
