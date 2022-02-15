@@ -1,12 +1,10 @@
 import React from 'react'
 import './style-components/Contact.css';
-import Fade from 'react-reveal/Fade';
 
 
 export default function Contact() {
     return (
         <>
-	    <Fade top>
 		<div className="container mt-5 text-white">
 		    <h1 className="text-white">Contactenos!</h1>
 		    <div className="row g-3">
@@ -50,7 +48,6 @@ export default function Contact() {
 		    </div>
 		    
 		</div>
-	    </Fade>
 
         </>
     )

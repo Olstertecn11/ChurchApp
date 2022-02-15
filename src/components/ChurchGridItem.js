@@ -1,7 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import './style-components/GridItem.css';
-import { button } from 'react-router-dom';
 
 
 
@@ -14,7 +13,7 @@ const ChurchGridItem = ({church}) => {
             var myPos = [pos.coords.latitude, pos.coords.longitude];
             setPosition(myPos);
         });
-    }, [position]);
+    }, []);
     
     return (
         <>

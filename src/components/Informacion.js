@@ -1,10 +1,8 @@
 import React from 'react'
-import Fade from 'react-reveal/Fade';
 
 export default function Informacion() {
     return (
         <>
-	    <Fade top>
 		<div className="container mt-4">
 		    <div className="row mt-4">
 			<div className="col">
@@ -17,7 +15,6 @@ export default function Informacion() {
 			</div>
 		    </div>
 		</div>
-	    </Fade>
         </>
     )
 }

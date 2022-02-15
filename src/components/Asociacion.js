@@ -1,30 +1,22 @@
 import React from "react";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "./style-components/Asociacion.css";
 import Grid  from "./Grid";
-import Fade from 'react-reveal/Fade';
 
 
 export default function Asociacion({title, datas}) {
 
-    const [mision, setMision] = useState();
+    const [mision, setMision] = useState('');
 
 
 
     const handleChange = (event)=>{
         var value = event.target.value;
-        value = value.substring(3, value.length);
         setMision(value);
     }
 
-    useEffect(()=>{
-        var selected_value = document.getElementById("exampleFormControlSelect1").value;
-        setMision(selected_value);
-    }, [])
-
     return (
         <>
-            <Fade top>
                 <div className="container">
                     <div className="row">
                         <h3 className="text-center text-white">{title}</h3>
@@ -52,7 +44,6 @@ export default function Asociacion({title, datas}) {
                         </div>
                     </div>
                 </div>
-            </Fade>  
         </>
     );
 }

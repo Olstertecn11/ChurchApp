@@ -13,7 +13,6 @@ function UniqueChurch() {
 
     return(
         <>
-	    <Fade top>
             <div className="container mx-auto">
                 <div className="row">
                     <div className="col">
@@ -79,7 +78,6 @@ function UniqueChurch() {
                     </div>
                 </div>
             </div>
-	    </Fade>
         </>
     )
 }
