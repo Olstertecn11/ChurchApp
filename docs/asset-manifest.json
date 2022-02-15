@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Olstertecn11/ChurchApp/static/css/main.a4234604.chunk.css",
-    "main.js": "/Olstertecn11/ChurchApp/static/js/main.769f9a1c.chunk.js",
-    "main.js.map": "/Olstertecn11/ChurchApp/static/js/main.769f9a1c.chunk.js.map",
+    "main.css": "/Olstertecn11/ChurchApp/static/css/main.55b8f161.chunk.css",
+    "main.js": "/Olstertecn11/ChurchApp/static/js/main.8e8a30bb.chunk.js",
+    "main.js.map": "/Olstertecn11/ChurchApp/static/js/main.8e8a30bb.chunk.js.map",
     "runtime-main.js": "/Olstertecn11/ChurchApp/static/js/runtime-main.1cf394d4.js",
     "runtime-main.js.map": "/Olstertecn11/ChurchApp/static/js/runtime-main.1cf394d4.js.map",
     "static/css/2.0a9ec390.chunk.css": "/Olstertecn11/ChurchApp/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.30201c3a.chunk.js": "/Olstertecn11/ChurchApp/static/js/2.30201c3a.chunk.js",
-    "static/js/2.30201c3a.chunk.js.map": "/Olstertecn11/ChurchApp/static/js/2.30201c3a.chunk.js.map",
+    "static/js/2.2e8b79e9.chunk.js": "/Olstertecn11/ChurchApp/static/js/2.2e8b79e9.chunk.js",
+    "static/js/2.2e8b79e9.chunk.js.map": "/Olstertecn11/ChurchApp/static/js/2.2e8b79e9.chunk.js.map",
     "index.html": "/Olstertecn11/ChurchApp/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/Olstertecn11/ChurchApp/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.a4234604.chunk.css.map": "/Olstertecn11/ChurchApp/static/css/main.a4234604.chunk.css.map",
-    "static/js/2.30201c3a.chunk.js.LICENSE.txt": "/Olstertecn11/ChurchApp/static/js/2.30201c3a.chunk.js.LICENSE.txt"
+    "static/css/main.55b8f161.chunk.css.map": "/Olstertecn11/ChurchApp/static/css/main.55b8f161.chunk.css.map",
+    "static/js/2.2e8b79e9.chunk.js.LICENSE.txt": "/Olstertecn11/ChurchApp/static/js/2.2e8b79e9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1cf394d4.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.30201c3a.chunk.js",
-    "static/css/main.a4234604.chunk.css",
-    "static/js/main.769f9a1c.chunk.js"
+    "static/js/2.2e8b79e9.chunk.js",
+    "static/css/main.55b8f161.chunk.css",
+    "static/js/main.8e8a30bb.chunk.js"
   ]
 }
