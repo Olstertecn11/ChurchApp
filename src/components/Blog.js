@@ -1,12 +1,10 @@
 import React from 'react';
 import './style-components/blog.css';
-import Fade from 'react-reveal/Fade';
 
 
 
 function Blog() {
     return (
-	<Fade left>
 	    <div className="blog">
 		<div className="container">
 		    <div className="row">
@@ -24,7 +22,6 @@ function Blog() {
 		    </div>
 		</div>
 	    </div>
-	</Fade>
     )
 }
 
