@@ -1,7 +1,6 @@
 import React from 'react'
 import { useLocation } from 'react-router-dom';
 import {  useEffect } from 'react';
-import Fade from 'react-reveal/Fade';
 
 function UniqueChurch() {
     const location = useLocation();

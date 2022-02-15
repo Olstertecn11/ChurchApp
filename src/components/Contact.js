@@ -5,49 +5,86 @@ import './style-components/Contact.css';
 export default function Contact() {
     return (
         <>
-		<div className="container mt-5 text-white">
-		    <h1 className="text-white">Contactenos!</h1>
-		    <div className="row g-3">
-			<div className="col-md-6">
-			    <label  for="nombre"className="form-label">Nombre</label>
-			    <input type="text" className="form-control" name="nombre" id="nombre" required />
+	    <div className="container content">
+		<div className="row justify-content-center">
+		    <div className="col-lg-10 col-md-12">
+			<div className="wrapper">
+			    <div className="row no-gutters">
+				<div className="col-md-7 d-flex align-items-stretch">
+				    <div className="contact-wrap w-100 p-md-5 p-4">
+					<h3 className="mb-4 text-success">Ponerse en Contacto</h3>
+					<div id="form-message-warning" className="mb-4"></div>
+					<div id="form-message-success" className="mb-4 text-dark">
+					    Your message was sent, thank you!
+					</div>
+					<form method="POST" id="contactForm" name="contactForm">
+					    <div className="row">
+						<div className="col-md-6">
+						    <div className="form-group">
+							<input type="text" 
+							    className="form-control" 
+							    name="name" 
+							    id="name"
+							    placeholder="Nombre"/>
+						    </div>
+						</div>
+						<div className="col-md-6">
+						    <div className="form-group">
+							<input type="email" 
+							    className="form-control" 
+							    name="email" 
+							    id="email"
+							    placeholder="Email" />
+						    </div>
+						</div>
+						<div className="col-md-12">
+						    <div className="form-group">
+							<input type="text" 
+							    className="form-control" 
+							    name="subject" 
+							    id="subject"
+							    placeholder="Asunto" />
+						    </div>
+						</div>
+						<div className="col-md-12">
+						    <div className="form-group">
+							<textarea name="message" 
+							    className="form-control" 
+							    id="message" 
+							    cols="30"
+							    rows="7" 
+							    placeholder="Mensaje">
+							</textarea>
+						    </div>
+						</div>
+						<div className="col-md-12">
+						    <div className="form-group">
+							<a className="btn text-white">
+							    <span>
+								<i className="fas fa-paper-plane fa-fw"></i>
+							    </span>
+							    Enviar Mensaje
+							</a>
+						    </div>
+						</div>
+					    </div>
+					</form>
+				    </div>
+				</div>
+				<div className="col-md-5 d-flex align-items-stretch text-center">
+				    <div className="info-wrap w-100 p-lg-5 p-4">
+					    <img src="https://github.com/Olivers11/Images/blob/master/ChurchApp/igle.png?raw=true" 
+					    alt="Girl in a jacket" 
+					    width="200" 
+					    height="200"/>
+
+				    </div>
+				</div>
+			    </div>
 			</div>
-			<div className="col-md-6">
-			    <label  for="apellido"className="form-label">Apellido</label>
-			    <input type="text" className="form-control" name="apellido" id="apellido" required />
-			</div>
-			<div class="col-md-8">
-			    <label  for="email"className="form-label">E-mail</label>
-			    <input type="text" className="form-control" id="email"  name="email" required />
-			</div>
-			<div className="col-md-4">
-			    <label  for="numeroTelefono"className="form-label">Numero de Telefono</label>
-			    <input type="text" className="form-control" name="numeroTelefono" id="numeroTelefono" placeholder="(502) 47331499" />
-			</div>
-			<div className="col-md-12">
-			    <label  for="preguntas"className="form-label">Comentarios o Preguntas?</label>
-			    <textarea className="form-control" name="preguntas" id="preguntas" rows="3"></textarea>
-			</div>
-			<div className="col-md-12">
-			    <button  type="Enviar" className="btn btn-primary">Enviar</button>
-			</div> 
-			<div className="col-md-12">
-			    <a  className="btn btn-primary "  href={"https://es-la.facebook.com/CentralGuatemalaIglesiaAdventista/"} role="button"
-				><i className="fab fa-facebook-f">Facebook</i
-			    ></a>
-			    <a  className="btn btn-primary ml-3" href={"https://twitter.com/adventista_es?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"} role="button"
-				><i className="fab fa-twitter">Twitter</i
-			    ></a>
-			    <a className="btn btn-primary ml-3"  href={"https://www.instagram.com/iglesiaadventistaoficial/?hl=es"} role="button"
-				><i className="fab fa-instagram">Instagram</i
-			    ></a>
-			    <a className="btn btn-primary ml-3"  href={"https://www.youtube.com/channel/UC5QTNtavIA-uuuCDuaZYIUA"} role="button"
-				><i className="fab fa-youtube">Youtube</i
-			    ></a>
-			</div>  
 		    </div>
-		    
 		</div>
+	    </div>
 
         </>
     )

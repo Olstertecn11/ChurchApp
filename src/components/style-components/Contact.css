@@ -1,8 +1,42 @@
-label{
-    margin:10px 0px 0px 0px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    margin-top: 100px;
 }
 
 
-Link{
-    background-color: #3b5998;  margin:50px 0px 0px 0px;
+#form-message-success{
+    display: none;  
 }
+
+
+.contact-wrap{
+    background-color: white;
+}
+
+.info-wrap{
+    background-color: #1C9741;
+    color: white;
+}
+
+
+.btn{
+    background: #1C9741;
+    color: white;
+    font-weight: bold;
+}
+
+i{
+    margin-right: 10px;
+}
+
+
+img{
+    margin-top: 50px;
+}
+
+
